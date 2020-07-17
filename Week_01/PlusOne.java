@@ -12,7 +12,7 @@ public class PlusOne {
         return digits;
       }
     }
-    digits = new int[len - 1];
+    digits = new int[len + 1];
     digits[0] = 1;
     return digits;
   }
